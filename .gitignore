@@ -1,0 +1,3 @@
+/.build_nix/
+/build_win32/
+/src/config.h
