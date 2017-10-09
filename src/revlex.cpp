@@ -38,8 +38,8 @@ int main(int argc, char *argv[])
 	std::cout << currentLocale << std::endl;
 
 	// Считываем строки со стандартного ввода
-	promptString = "Enter lines(end with Ctrl-Z or Ctrl-D)\n";
-	std::cout << promptString;
+	promptString = "Enter lines(end with Ctrl-Z or Ctrl-D)";
+	std::cout << promptString << std::endl;
 	while (std::cin >> inputLine)
 	{
 		if (inputLine.getLength() > 0)
